@@ -53,16 +53,29 @@
         </div>
     </nav>    
 
-    <div id="titulo_content">
-        <h2>Martina de la Cámara</h2>
-    </div>
+    <form action="/action_page.php" id="form" class="form-contact container_form shadow p-3 rounded">
+        <div id= "titulo-form" class="contacto">
+            <h1>Contacto</h1>
+        </div>
+        
+        <div class="form-floating mb-3">
+            <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+            <label for="floatingInput">Email</label>
+        </div>
 
-    <div id= "content1" class="shadow p-3 rounded">
-        <h3>Lorem ipsum dolor sit amet consectetur</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid suscipit ipsum maxime odit laborum. Quisquam nobis dignissimos iusto incidunt a officiis aperiam nesciunt. Doloribus voluptatibus ipsam doloremque, modi illo repudiandae. Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem explicabo accusantium deserunt modi iure voluptatum, saepe dolorem at, quisquam tempore magni sequi repudiandae, odit aperiam officiis fugiat velit porro alias.
-            <br> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis facere, porro quis natus laudantium debitis veritatis quia veniam tenetur qui ab consequatur accusamus enim, ullam at expedita optio ad doloremque!
-        </p>
-    </div>
+        <div class="form-floating">
+            <textarea class="form-control" placeholder="Su consulta" id="floatingTextarea2" style="height: 100px"></textarea>
+            <label for="floatingTextarea2">Su consulta</label>
+        </div>
+        
+        <div id= "btn-enviar" class="btn_e">
+            <button class="btn btn-primary w-100" onclick="mensaje()" style="background-color: #0a58ca;" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                Enviar
+            </button>
+        </div> 
+        
+          
+    </form>
 
     <!-- Footer -->
     <footer id="footer" class="text-lg-start">

@@ -1,0 +1,178 @@
+.navbar {
+    background-color: #f8e6e6;
+}
+
+#logoNavbar {
+    width: 85px;
+    height:30;
+    margin-right: 7px;
+
+}
+
+
+#navbarText {
+    font-family: 'Josefin Sans', sans-serif;
+    margin-top: 3px;
+}
+
+
+body {
+    background-color: #fdf1f1;
+    color: #0a58ca;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+/* Inicio  */
+#presentacion {
+    margin-top: 30px;
+    margin-left: 40px;
+}
+
+/* Fin de inicio  */
+
+
+/* Inicio de sesión y contacto */
+#titulo-form{
+    font-family: 'Abril Fatface', cursive;
+    color: #0a58ca;
+}
+
+body {
+    background-color: #f1f1f1;
+    color: #0a58ca;
+}
+
+
+#form {
+    position: absolute;
+    left: 10px;
+    margin: 20px;
+    margin-top: 100px;
+    max-width: 300px;
+    padding: 16px;
+    background-color: #e4dada;
+}
+
+
+input[type=text], input[type=password] {
+    max-width: 100%;
+    padding: 16px;
+    margin: 2px;
+}
+
+#btn-enviar {
+    color: white;
+    margin-top: 10px;
+    cursor: pointer;
+    width: 100%;
+    text-align: center;
+    background-color: #0a58ca;
+}
+
+
+#link-contra {
+    margin-top: 10px;
+}
+
+/* Fin de inicio de sesión y contacto */
+
+#titulo_content {
+    font-family: 'Abril Fatface', cursive;
+    margin-left: 20px;
+    margin-top: 10px;   
+  }
+
+#content1 {
+    background-color: #e4dada;
+    margin-left: 20px;
+    margin-top: 10px;
+  }
+
+#content1 h3 {
+    margin-top: 5px;
+}
+
+/* Habilidades */
+#habilidades {
+    margin-left: 15px;
+}
+
+#habilidades .w3-container {
+    background-color:#0a58ca;
+    color: #f1f1f1;
+    margin-left: 5px;
+}
+/* fin de Habilidades   */
+
+
+/* Proyectos */
+#row-proyectos .texto_imagen {
+    margin-top: 0.75em;
+}
+
+#row-proyectos .row {
+    margin: 8px -16px;
+}
+
+#row-proyectos   .row > .column {
+    padding: 15 px;
+  }
+
+#row-proyectos  .column {
+    float: left;
+    width: 300px;
+  }
+
+#row-proyectos .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+#row-proyectos .content {
+    margin-top: 10px;
+    background-color: #e4dada;
+  }
+
+/* Fin de proyectos */
+
+
+/* footer */
+#footer{
+    padding: 7px;
+    position: absolute;
+    bottom: 0%;
+    width: 100%;
+    color: #0a58ca;
+    background-color:#f8e6e6;
+}
+    
+#footer .item.social > a {
+    /* font-size:20px; */
+    width:25px;
+    height:25px;
+    line-height:28px;
+    display:inline-block;
+    border-radius:50%;
+    box-shadow:0 0 0 2px #0a58ca;
+    margin-left: 30px;
+    opacity:0.2;
+}
+    
+#footer .item.social > a:hover {
+    opacity:0.9;
+}
+    
+#footer .copyright {
+    opacity: 0.5;
+    margin-right: 1px; 
+    margin-top: 4px;
+    margin-bottom: 1px;
+    font-size:13px;
+}
+  
+#footer .fa {
+    margin-left: 6px;
+}
+
+/* Fin de footer */
