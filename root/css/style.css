@@ -46,14 +46,22 @@
 
 /* navbar */
 
+/*general*/
+body {
+    background-color: #f1f1f1;
+    color: #0a58ca;
+    font-family: 'Josefin Sans', sans-serif;
+}
+/*general*/
+
 /* inicio */
 .banner-area {
     position: relative;
-    background-color: aquamarine;
     width: 100%;
     height: 100vh;
+    background-image: url(/root/images/pexels-eberhard-grossgasteiger-844297.jpg);
     background-repeat: no-repeat;
-    /* -webkit-background-composite: cover; */
+    opacity: 0.5;
     background-size:cover;
 
 }
@@ -71,6 +79,10 @@
     height: 700px;
 }
 
+#titulo {
+    font-family: 'Abril Fatface', cursive;
+}
+
 .texto {
     width: 65%;
     height: 80%;
@@ -79,7 +91,6 @@
 .textos h1 {
     font-size: 50px;
     margin-top: 20px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 .textos p {
@@ -88,7 +99,20 @@
 }
 
 #sobre-mi, #contacto {
-    background-color: bisque;
+    background-image: url(/root/images/wave-haikei.svg);
+    background-repeat:no-repeat;
+    height: 100vh;
+
+}
+
+#proyectos {
+    background-image: url(/root/images/wave-haikei3.svg);
+    background-repeat:no-repeat;
+    height: 100vh;
+}
+
+.progress-bar {
+    background-color: #0a58ca;
 }
 
 html {
@@ -110,7 +134,7 @@ html {
   }
 
 #row-proyectos  .column {
-    float: left;
+    /* float: left; */
     width: 220px;
   }
 
@@ -128,15 +152,6 @@ html {
 /*proyectos */
 
 /*contacto*/
-#titulo-form{
-    font-family: 'Abril Fatface', cursive;
-    color: #0a58ca;
-}
-
-body {
-    background-color: #f1f1f1;
-    color: #0a58ca;
-}
 
 
 #form {
@@ -176,7 +191,7 @@ input[type=text], input[type=password] {
 #footer .item.social > a {
     width:25px;
     height:25px;
-    line-height:22px;
+    line-height:29px;
     display:inline-block;
     border-radius:50%;
     box-shadow:0 0 0 2px #0a58ca;
