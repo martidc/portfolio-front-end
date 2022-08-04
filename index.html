@@ -49,7 +49,21 @@
 <!--Navbar-->
 
 <!--Inicio-->
-    <div class="banner-area" id="inicio"> </div>
+    <div class="banner-area" id="inicio"> 
+            <div class= "intro-area" id= "intro">
+                <img id="imagen" src="./images/Girl busy at the workplace.svg" alt="Perfil">
+                <div id="texto1" class="intro">
+                    <div id="titulo" class="titulo_intro">
+                        <h1>Martina de la Cámara</h1>
+                    </div>
+                    <div class="texto_intro">
+                        <h5>25 años. La Plata, Argentina.</h5>
+                        <h5>Estudiante de cosas y creadora de otras. </h5>
+                    </div>
+                </div>
+            </div>
+    </div>
+
 <!--Inicio-->
 
 <!--Sobre mi-->
@@ -96,7 +110,7 @@
                 <div id="row-proyectos" class="row">
                     <div class="column">
                         <div class="col-xs-6 content shadow p-3 rounded">
-                            <img src="./images/carpa.jpg" alt="Campamento" style="width:100%">
+                            <img src="./images/Cleaning PC_Flatline.svg" alt="En construcción" style="width:100%">
                             <div class="texto_imagen">
                                    <h3><a href="https://youtu.be/X-KwYX2u8e4" class="link">Lorem</a></h3>
                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate impedit, inventore voluptas assumenda totam alias?</p>
@@ -107,7 +121,7 @@
                       
                     <div class="column">
                         <div class="col-xs-6 content shadow p-3 rounded ">
-                            <img src="./images/limon.jpg" alt="Limon" style="width:100%">
+                            <img src="./images/Cleaning PC_Flatline.svg" alt="En construcción" style="width:100%">
                             <div class="texto_imagen">
                                 <h3><a href="https://youtu.be/X-KwYX2u8e4" class="link">Lorem</a></h3>
                                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi, sit sed. Accusamus qui modi maiores!</p>
@@ -117,7 +131,7 @@
                   
                     <div class="column">
                         <div class="col-xs-6 content shadow p-3 rounded">
-                            <img src="./images/limon_tulipan.jpg" alt="Lights" style="width:100%">
+                            <img src="./images/Cleaning PC_Flatline.svg" alt="En construcción" style="width:100%">
                             <div class="texto_imagen">
                                 <h3><a href="https://youtu.be/X-KwYX2u8e4" class="link">Lorem</a></h3>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut omnis adipisci libero, dolorem architecto voluptas.</p>
@@ -127,7 +141,7 @@
                   
                     <div class="column">
                         <div class="col-xs-6 content shadow p-3 rounded">
-                            <img src="./images/naranja.jpg" alt="Nature" style="width:100%">
+                            <img src="./images/Cleaning PC_Flatline.svg" alt="En construcción" style="width:100%">
                             <div class="texto_imagen">
                                 <h3><a href="https://youtu.be/X-KwYX2u8e4" class="link">Lorem</a></h3>
                                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos nam, quo recusandae dolores adipisci aperiam.</p>
@@ -157,9 +171,36 @@
                         <label for="floatingTextarea2">Su consulta</label>
                     </div>
                         
-                    <div id= "btn-contacto" class="btn_e mb-3">
-                        <button class="btn btn-outline-primary w-100" onclick="mensaje()" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal"> Enviar </button>
-                    </div>      
+                    <div id="btn-contacto" class="btn_e mb-3">
+                        <button type="submit" class="btn btn-outline-primary w-100" onclick="openPopup()"> Enviar </button>
+
+                        
+                        <!-- <div class="popup shadow" id="popup">
+                            <img id="img-pop" src="./images/Goodies - Thanks.svg">
+                            <div id="text-pop">
+                                <h2> Gracias!</h2>
+                                <p>En breve nos estaremos contactando con usted</p>
+                                <button type="button" onclick="closePopup()">OK</button>
+                            </div>
+                        </div>
+
+                        <script>
+                            let popup = document.getElementById ("popup");
+    
+                            function openPopup() {
+                                popup.classList.add ("open-popup");
+                            }
+    
+                            function closePopup() {
+                                popup.classList.remove ("open-popup");
+                            }
+                        </script>     -->
+                    </div>
+
+                    
+
+
+
 
                 </form>
             </div>

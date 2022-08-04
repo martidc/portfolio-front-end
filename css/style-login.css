@@ -56,14 +56,14 @@ body {
     background-color: #f1f1f1;
     color: #0a58ca;
     font-family: 'Josefin Sans', sans-serif;
-    background-image: url(../images/wave-haikei3.svg);
+    background-image: url(../images/pexels-eberhard-grossgasteiger-844297.svg);
     background-repeat:no-repeat;
     height: 100vh;
 }
 
 #form {
     position: absolute;
-    right: 20px;
+    right: 40px;
     top: 25%;
     max-width: 300px;
     background-color: #e4dada;
